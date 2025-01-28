@@ -7,7 +7,7 @@
 
 header{
     background-color: #9C7E6E;
-    padding: 25px 0;
+    padding: 48px 0;
 }
 
 header .container > *,
@@ -26,7 +26,7 @@ margin-right: 24px;
  }
 
  header nav{
-    /* border: 2px solid blue;*/
+    /* border: 2px solid blue; */
     vertical-align:  25px;
  }
  header nav li{
@@ -62,4 +62,61 @@ header nav li:last-child{
     text-align: center;
     vertical-align: 30px;
     margin-left: -10px;
+ }
+
+ .hero {
+    background-image: url(img/Group_3123464.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .hero-left, 
+ .hero-right{
+    /* border: 2px solid blue; */
+    display: inline-block;
+ }
+
+ .hero-left{
+   width: 493px;
+   vertical-align: 95px;
+ }
+ .hero-left h1{
+   color: white;
+   font-size: 50px;
+ }
+.hero-left p{
+   color: rgba(102,69,53,1);
+   font-size: 20px;
+   font-weight: bold;
+   line-height: 24px;
+   margin:28px 0 59px 0;
+}
+.hero-left a {
+background-color: black;
+color: white;
+display: inline-block;   
+padding: 17px 33px;
+text-decoration: none;
+border-radius: 30px;
+font-weight: bold;
+font-size: 22px;
+}
+
+.hero-left a:hover{
+   box-shadow: 0 0 10px 0 rgba(0,0,0, 0.633);
+}
+ .hero-right img:first-child{
+    width: 550px; 
+ }
+ .hero-right{
+   position: relative;
+ }
+ 
+
+ 
+ .hero-right img:last-child{
+   width: 230px;
+  position: absolute;
+  right: 0px;
+  bottom: -20px;
  }
