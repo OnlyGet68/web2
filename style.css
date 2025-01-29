@@ -17,7 +17,7 @@ header .container > *,
 
  .container{
     border: 2px solid blue;
-    width: 1112px;
+    max-width: 1112px;
     margin: 0 auto;
  }
 
@@ -77,12 +77,15 @@ header nav li:last-child{
  }
 
  .hero-left{
-   width: 493px;
+   width: 580px;
    vertical-align: 95px;
+   position: relative;
+   z-index: 1;
  }
  .hero-left h1{
    color: white;
    font-size: 50px;
+   
  }
 .hero-left p{
    color: rgba(102,69,53,1);
@@ -106,10 +109,13 @@ font-size: 22px;
    box-shadow: 0 0 10px 0 rgba(0,0,0, 0.633);
 }
  .hero-right img:first-child{
-    width: 550px; 
+
+    width: 520px; 
  }
  .hero-right{
    position: relative;
+   left: -70px;
+   
  }
  
 
@@ -118,5 +124,88 @@ font-size: 22px;
    width: 230px;
   position: absolute;
   right: 0px;
-  bottom: -20px;
+  bottom: -1px;
  }
+
+ .tutorial {
+   padding: 82px 0;
+ }
+
+ .title{
+   text-align: center;
+ }
+
+ .title h2{
+   font-size: 40px;
+ }
+ .title h2 span{
+color:#75B5C8 ; 
+}
+.title p{
+   width: 726px;
+  /* border: 2px solid green; */
+  display: inline-block;
+  margin: 11px 0 37px;
+}
+
+.tutorial .card-left{
+   position: relative;
+   border: 2px solid green;
+   display: inline-block;
+}
+
+.tutorial .card-left img:last-child{
+   position: absolute;
+   bottom:-40px;
+   right:-75px;
+}
+
+.tutorial .card-right{
+   display: inline-block;
+   vertical-align: 150px;
+   font-size: 40px;
+   width: 435px;
+   margin-left: 180px;
+   color: rgba(102,69,53,1);
+}
+
+.card-left::before{
+   content: "Easy to control!";
+   position: absolute;
+   top: 50px;
+   right: -100;
+   width: 140px;
+   font-size: 19.81px; 
+   /* height: 30px; */ 
+   padding: 24px 20px;
+   background-color: rgba(240,240,238,1);
+   border-radius: 7.59px 7.59px 7.59px 0;
+   line-height: 27.02px;
+   color:#664535;
+   
+}
+
+.card2{
+margin-top: 140px;
+bottom:  -40px;
+}
+
+.card2 .card-right{
+   display: inline-block;
+   vertical-align: 150px;
+   font-size: 40px;
+   width: 435px;
+   margin-left: 0px;
+
+}
+
+.card2 .card-right img{
+   width: 600px ;
+   display: inline-block;
+   vertical-align: top;
+   bottom: 70px;
+   position: relative;
+   margin-left: 80px;
+   top: -180px;
+}
+
